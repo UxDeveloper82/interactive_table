@@ -47,8 +47,8 @@ function buildData() {
         var row = $("<tr></tr>");
         row.append($("<td></td>").html(x));
         row.append($("<td></td>").html(
-           tArr[randInt(3) + "" + sArr[randInt(3)] +
-           "" + kArr(5)]));
+            tArr[randInt(3)] + " " + sArr[randInt(3)] +
+            " " + kArr[randInt(5)]));
         row.append($("<td></td>").html(randInt(20))); 
         row.append($("<td></td>")
            .html(((Math.random()*80)+ 5).toFixed(2)));
