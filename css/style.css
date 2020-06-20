@@ -51,7 +51,7 @@ input {
     width: 20px;
     border:15px;
     padding: 0 7px 2px 25px;
-    background: url("/images/search.png") no-repeat scroll left bottom #ffffff;
+    background: url("images/search.png") no-repeat scroll left bottom #ffffff;
     background-size: 20px 20px;
 }
 
@@ -60,16 +60,16 @@ input:focus{
 }
 
 span{
-    background: url("/images/sort2.png")no-repeat scroll left;
+    background: url("images/sort2.png")no-repeat scroll left;
     background-size: 20px 20px;
     padding: 0 7px 2px 25px;
     cursor: pointer;
 }
 .ascending{
-    background: url("/images/up2.png") no-repeat scroll left;
+    background: url("images/up2.png") no-repeat scroll left;
     background-size: 20px 20px;
 }
 .descending{
-    background: url("/images/down2.png") no-repeat scroll left;
+    background: url("images/down2.png") no-repeat scroll left;
     background-size: 20px 20px;
 }
